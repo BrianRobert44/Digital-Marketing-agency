@@ -28,10 +28,10 @@ export function Navigation() {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 hover-scale">
             <div className="w-8 h-8 bg-hero-gradient rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">N</span>
+              <span className="text-white font-bold text-lg">W</span>
             </div>
             <span className="font-heading font-bold text-xl text-gradient">
-              Nexus Digital
+              Weboin Digital
             </span>
           </Link>
 

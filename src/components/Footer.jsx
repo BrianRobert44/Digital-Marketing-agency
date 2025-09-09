@@ -34,10 +34,10 @@ export function Footer() {
           <div className="space-y-4">
             <Link to="/" className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-hero-gradient rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">N</span>
+                <span className="text-white font-bold text-lg">W</span>
               </div>
               <span className="font-heading font-bold text-xl text-gradient">
-                Nexus Digital
+                Weboin Digital
               </span>
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed">
@@ -93,7 +93,7 @@ export function Footer() {
             <div className="space-y-3">
               <div className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <Mail className="h-4 w-4 text-primary" />
-                <span>hello@nexusdigital.com</span>
+                <span>Weboin@digital.com</span>
               </div>
               <div className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <Phone className="h-4 w-4 text-primary" />
@@ -110,7 +110,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-border mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
           <p className="text-muted-foreground text-sm">
-            © 2024 Nexus Digital. All rights reserved.
+            © 2024 Weboin Digital. All rights reserved.
           </p>
           <div className="flex space-x-6 text-sm">
             <a href="#" className="text-muted-foreground hover:text-primary transition-smooth">

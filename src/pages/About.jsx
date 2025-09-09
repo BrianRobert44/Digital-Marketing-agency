@@ -3,8 +3,8 @@ import { ArrowRight, Users, Award, Target, Heart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
-import teamSarah from "@/assets/team-sarah.jpg";
-import teamAlex from "@/assets/team-alex.jpg";
+import teamRobert from "@/assets/Robert.jpeg";
+import teamBritto from "@/assets/IMG_20250604_112444_813.jpg";
 import teamEmily from "@/assets/team-emily.jpg";
 
 const About = () => {
@@ -33,16 +33,16 @@ const About = () => {
 
   const team = [
     {
-      name: "Sarah Johnson",
+      name: "Robert J",
       role: "CEO & Founder",
-      image: teamSarah,
+      image: teamRobert,
       bio: "10+ years in digital marketing with a passion for helping businesses grow through innovative strategies.",
       expertise: ["Strategy", "Leadership", "Growth Marketing"],
     },
     {
-      name: "Alex Thompson",
+      name: "Britto",
       role: "Creative Director",
-      image: teamAlex,
+      image: teamBritto,
       bio: "Award-winning creative professional specializing in brand development and visual storytelling.",
       expertise: ["Branding", "Design", "Creative Strategy"],
     },
@@ -68,7 +68,7 @@ const About = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center space-y-6 max-w-4xl mx-auto">
             <div className="inline-flex items-center px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">
-              👋 About Nexus Digital
+              👋 About weboin Digital
             </div>
             <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
               We're Digital Marketing
@@ -151,7 +151,7 @@ const About = () => {
               <Card key={member.name} className="group hover-lift border-0 shadow-agency-md bg-card-gradient">
                 <CardContent className="p-8 text-center space-y-6">
                   <Avatar className="h-24 w-24 mx-auto">
-                    <AvatarImage src={member.image} alt={member.name} />
+                    <AvatarImage src={member.image} alt={member.name} className ="object-contain" />
                     <AvatarFallback>{member.name.split(' ').map(n => n[0]).join('')}</AvatarFallback>
                   </Avatar>
                   

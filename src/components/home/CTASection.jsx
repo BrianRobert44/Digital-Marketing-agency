@@ -49,7 +49,7 @@ export function CTASection() {
                         className="flex items-center text-sm text-muted-foreground hover:text-primary transition-smooth"
                       >
                         <Mail className="h-4 w-4 mr-2" />
-                        hello@nexusdigital.com
+                        Weboin@digital.com
                       </a>
                       <a 
                         href="tel:+15551234567"

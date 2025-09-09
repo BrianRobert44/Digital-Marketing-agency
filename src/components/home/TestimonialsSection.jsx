@@ -17,7 +17,7 @@ export function TestimonialsSection() {
       company: "TechStart Solutions",
       image: testimonialJohn,
       rating: 5,
-      quote: "Nexus Digital transformed our online presence completely. Their strategic approach to SEO and paid advertising increased our revenue by 340% in just 6 months. The team is professional, responsive, and truly understands digital marketing.",
+      quote: "Weboin Digital transformed our online presence completely. Their strategic approach to SEO and paid advertising increased our revenue by 340% in just 6 months. The team is professional, responsive, and truly understands digital marketing.",
     },
     {
       name: "Maria Rodriguez",
@@ -25,7 +25,7 @@ export function TestimonialsSection() {
       company: "Fashion Forward",
       image: testimonialMaria,
       rating: 5,
-      quote: "Working with Nexus Digital was a game-changer for our brand. They helped us build a community of over 100K followers and increased our engagement by 500%. Their creative content and strategic approach are unmatched in the industry.",
+      quote: "Working with Weboin Digital was a game-changer for our brand. They helped us build a community of over 100K followers and increased our engagement by 500%. Their creative content and strategic approach are unmatched in the industry.",
     },
     {
       name: "David Chen",
@@ -33,7 +33,7 @@ export function TestimonialsSection() {
       company: "StartupHub",
       image: testimonialDavid,
       rating: 5,
-      quote: "The results speak for themselves. Nexus Digital helped us achieve a 200% increase in qualified leads and improved our conversion rate significantly. Their data-driven approach and attention to detail are exceptional.",
+      quote: "The results speak for themselves. Weboin Digital helped us achieve a 200% increase in qualified leads and improved our conversion rate significantly. Their data-driven approach and attention to detail are exceptional.",
     },
   ];
 
@@ -59,7 +59,7 @@ export function TestimonialsSection() {
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
             Don't just take our word for it. Here's what our satisfied clients have to say 
-            about their experience working with Nexus Digital.
+            about their experience working with Weboin Digital.
           </p>
         </div>
 

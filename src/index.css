@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Digital Marketing Agency Design System
-Professional blue palette with gradients and modern typography
-All colors MUST be HSL.
-*/
 
 @layer base {
   :root {
