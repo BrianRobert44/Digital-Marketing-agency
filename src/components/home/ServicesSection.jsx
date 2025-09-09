@@ -43,17 +43,10 @@ export function ServicesSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center space-y-4 mb-16">
-          <div className="inline-flex items-center px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">
-            💼 Our Services
-          </div>
           <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold">
             Complete Digital Marketing
             <span className="text-gradient block">Solutions</span>
           </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            From SEO to social media, we provide comprehensive digital marketing services 
-            that drive growth and deliver measurable results for your business.
-          </p>
         </div>
 
         {/* Services Grid */}
@@ -88,10 +81,10 @@ export function ServicesSection() {
                   </ul>
 
                   {/* CTA */}
-                  <Button variant="ghost" className="group/btn p-0 h-auto font-medium text-primary hover:text-primary">
+                  {/* <Button variant="ghost" className="group/btn p-0 h-auto font-medium text-primary hover:text-primary">
                     Learn More
                     <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
-                  </Button>
+                  </Button> */}
                 </div>
               </CardContent>
             </Card>

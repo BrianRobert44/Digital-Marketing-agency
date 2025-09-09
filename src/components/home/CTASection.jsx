@@ -12,7 +12,7 @@ export function CTASection() {
           
           <Card className="relative border-0 shadow-agency-xl bg-card-gradient overflow-hidden">
             <CardContent className="p-12 lg:p-16">
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+              <div className="grid grid-cols-1 lg:grid-cols-1 gap-12 items-center">
                 {/* Left Content */}
                 <div className="space-y-6">
                   <div className="space-y-4">
@@ -65,62 +65,14 @@ export function CTASection() {
                 {/* Right Content - Benefits */}
                 <div className="space-y-6">
                   <div className="space-y-4">
-                    <h3 className="font-heading text-xl font-semibold text-foreground">
-                      What You'll Get:
-                    </h3>
+                    
                     
                     <div className="space-y-4">
-                      {[
-                        {
-                          icon: Calendar,
-                          title: "Free 30-Minute Consultation",
-                          description: "Discuss your goals and challenges with our experts",
-                        },
-                        {
-                          icon: ArrowRight,
-                          title: "Custom Strategy Proposal",
-                          description: "Tailored digital marketing plan for your business",
-                        },
-                        {
-                          icon: Mail,
-                          title: "Competitive Analysis",
-                          description: "Insights into your market and opportunities",
-                        },
-                      ].map((benefit) => (
-                        <div key={benefit.title} className="flex items-start space-x-3">
-                          <div className="flex-shrink-0 w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-                            <benefit.icon className="h-5 w-5 text-primary" />
-                          </div>
-                          <div className="space-y-1">
-                            <div className="font-medium text-foreground">
-                              {benefit.title}
-                            </div>
-                            <div className="text-sm text-muted-foreground">
-                              {benefit.description}
-                            </div>
-                          </div>
-                        </div>
-                      ))}
                     </div>
                   </div>
 
                   {/* Trust Indicators */}
-                  <div className="p-6 bg-muted/50 rounded-xl">
-                    <div className="flex items-center justify-between text-center">
-                      <div>
-                        <div className="font-heading text-2xl font-bold text-gradient">24h</div>
-                        <div className="text-xs text-muted-foreground">Response Time</div>
-                      </div>
-                      <div>
-                        <div className="font-heading text-2xl font-bold text-gradient">100%</div>
-                        <div className="text-xs text-muted-foreground">Satisfaction</div>
-                      </div>
-                      <div>
-                        <div className="font-heading text-2xl font-bold text-gradient">Free</div>
-                        <div className="text-xs text-muted-foreground">Consultation</div>
-                      </div>
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
             </CardContent>

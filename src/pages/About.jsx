@@ -58,8 +58,7 @@ const About = () => {
   const stats = [
     { label: "Happy Clients", value: "200+", description: "Businesses we've helped grow" },
     { label: "Projects Completed", value: "500+", description: "Successful campaigns delivered" },
-    { label: "Years Experience", value: "5+", description: "In the digital marketing industry" },
-    { label: "Team Members", value: "15+", description: "Digital marketing experts" },
+    { label: "Years Experience", value: "5+", description: "In the digital marketing industry" }, 
   ];
 
   return (
@@ -75,11 +74,6 @@ const About = () => {
               We're Digital Marketing
               <span className="text-gradient block">Experts Who Care</span>
             </h1>
-            <p className="text-xl text-muted-foreground leading-relaxed">
-              At Nexus Digital, we combine cutting-edge digital marketing strategies with 
-              personalized service to help ambitious brands achieve extraordinary growth. 
-              We're not just another agency – we're your growth partners.
-            </p>
           </div>
         </div>
       </section>
@@ -140,38 +134,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* Our Values */}
-      <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center space-y-4 mb-16">
-            <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl font-bold">
-              Our Core
-              <span className="text-gradient block">Values</span>
-            </h2>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              These principles guide everything we do and shape how we work with our clients.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {values.map((value) => (
-              <Card key={value.title} className="group hover-lift border-0 shadow-agency-md bg-card-gradient">
-                <CardContent className="p-8 space-y-4">
-                  <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary/10">
-                    <value.icon className="h-8 w-8 text-primary" />
-                  </div>
-                  <h3 className="font-heading text-xl font-semibold text-foreground">
-                    {value.title}
-                  </h3>
-                  <p className="text-muted-foreground leading-relaxed">
-                    {value.description}
-                  </p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
+     
 
       {/* Team Section */}
       <section className="py-20 bg-muted/30">
@@ -181,10 +144,6 @@ const About = () => {
               Meet Our
               <span className="text-gradient block">Expert Team</span>
             </h2>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Our diverse team of digital marketing professionals brings together years of experience 
-              and a passion for helping businesses succeed online.
-            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -238,7 +197,7 @@ const About = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {stats.map((stat) => (
               <Card key={stat.label} className="text-center hover-lift border-0 shadow-agency-md bg-card-gradient">
                 <CardContent className="p-8 space-y-4">

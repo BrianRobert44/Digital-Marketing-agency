@@ -15,7 +15,7 @@ export function Navigation() {
     { name: "Contact", href: "/#contact" },
   ];
 
-  const isActive = (href: string) => {
+  const isActive = (href) => {
     if (href === "/") return location.pathname === "/";
     if (href.startsWith("/#")) return location.pathname === "/" && href.includes(href.split("#")[1]);
     return location.pathname === href;
@@ -65,6 +65,7 @@ export function Navigation() {
             <ThemeToggle />
             <Button
               variant="ghost"
+              
               size="icon"
               onClick={() => setIsOpen(!isOpen)}
               aria-label="Toggle menu"
