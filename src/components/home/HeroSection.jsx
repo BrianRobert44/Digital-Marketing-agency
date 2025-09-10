@@ -22,11 +22,10 @@ export function HeroSection() {
             <div className="space-y-4">
              
               <h1 className="font-heading text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">
-                Transform Your Business with{" "}
-                <span className="text-gradient">Digital Excellence</span>
+                Revolutionizing Digital Marketing with {" "}
+                <span className="text-gradient">AI-Powered Strategies</span>
               </h1>
-              <p className="text-lg text-muted-foreground leading-relaxed max-w-xl">
-                We help ambitious brands achieve extraordinary growth through data-driven digital marketing strategies, innovative campaigns, and measurable results.
+              <p className="text-lg text-muted-foreground leading-relaxed max-w-xl">Weboin is one of fastest-growing digital marketing agencies, helping brands scale smarter with cutting-edge AI and seamless data integration
               </p>
             </div>
 
